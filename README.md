@@ -11,7 +11,7 @@
 ### 下载数据集
 链接: https://pan.baidu.com/s/1SqjBKCO_IupeiCZYK3R73w 提取码: ftng
 ### 创建模型配置文件
-> $ cd config/ 
+> $ cd config/  
 > $ bash create_custom_model.sh 2  
 ### 修改类别名  
 将data/custom文件夹下的classes.names文件内容修改为：    
