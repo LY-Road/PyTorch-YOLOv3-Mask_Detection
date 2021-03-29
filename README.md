@@ -15,10 +15,10 @@
 > $ bash create_custom_model.sh 2  
 ### 修改类别名  
 将data/custom文件夹下的classes.names文件内容修改为：    
-> face  
+> face_not_mask  
 > face_mask  
 ### 数据处理
-   数据集解压后将JPEGImages中的图片放在data/custom/images下，Annotations文件放在data/custom/labels下，使用如下命令生成标签，（标签格式为[label_idx x_center y_center width height]）。
+   数据集解压后将JPEGImages中的图片放在data/custom/images下，Annotations文件夹放在data/custom/labels下，使用如下命令生成标签，（标签格式为[label_idx x_center y_center width height]）。
 > $ cd data/  
 > $ cd custom/  
 > $ python3 label_processing.py  
@@ -27,7 +27,12 @@
 > $ cd data/  
 > $ cd custom/  
 > $ python3 make_train_valid.py   
-
 ### 训练  
 执行如下命令：
 > $ python3 train.py --model_def config/yolov3-custom.cfg --data_config config/custom.data
+### 测试
+执行如下命令：
+> python3 test.py --
+### 检测
+将需要检测的图片放在data/samples下，执行如下命令：
+> python3
