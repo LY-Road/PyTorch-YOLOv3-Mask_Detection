@@ -9,7 +9,8 @@
 >Python 3.8.5  
 
 在验证集上效果：
-![image]()
+![image](https://github.com/LY-Road/PyTorch-YOLOv3-Mask_Detection/blob/main/weights/2C9EFCB40BE052BA6D556F206C9B9F67.png)
+![image](https://github.com/LY-Road/PyTorch-YOLOv3-Mask_Detection/blob/main/weights/2C9EFCB40BE052BA6D556F206C9B9F67.png)
 
 ### 下载数据集
 链接: https://pan.baidu.com/s/1SqjBKCO_IupeiCZYK3R73w 提取码: ftng
