@@ -58,7 +58,7 @@ mAP：0.920
 注意权重路径。
 ### 检测
 将需要检测的图片放在data/samples下，执行如下命令（输出图片存放在output文件夹下）：
-> $ python3 detcet.py --model_def config/yolov3-custom.cfg --weights_path weights/yolov3_ckpt_99.pth --class_path data/custom/classes.names  
+> $ python3 detect.py --model_def config/yolov3-custom.cfg --weights_path weights/yolov3_ckpt_99.pth --class_path data/custom/classes.names  
 
 注意权重路径。
 
