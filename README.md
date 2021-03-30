@@ -9,12 +9,12 @@
 >Python 3.8.5  
 
 训练100个epochs，在验证集上效果：  
-classes name |AP
+class |AP
 -------------|----
-face_not_mask|89.1  
-face_mask    |98.2 
+‘0’：face_not_mask|0.845  
+‘1’：face_mask    |0.995
 
-mAP：0.916
+mAP：0.920
 
 检测效果图：
 ![image](https://github.com/LY-Road/PyTorch-YOLOv3-Mask_Detection/blob/main/output/2C9EFCB40BE052BA6D556F206C9B9F67.png)
