@@ -22,6 +22,12 @@ from torchvision import transforms
 from torch.autograd import Variable
 import torch.optim as optim
 
+### 可以通过 tf.config.experimental.set_memory_growth 将 GPU 的显存使用策略设置为 “仅在需要时申请显存空间”
+gpus = tf.config.experimental.list_physical_devices(device_type='GPU')
+
+for gpu in gpus:
+    tf.config.experimental.set_memory_growth(gpu, True)
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--epochs", type=int, default=100, help="number of epochs")
