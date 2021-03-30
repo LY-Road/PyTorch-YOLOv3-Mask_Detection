@@ -8,8 +8,9 @@
 >Pytorch version：1.7.1  
 >Python 3.8.5  
 
-在验证集上效果：
-![image](https://github.com/LY-Road/PyTorch-YOLOv3-Mask_Detection/blob/main/weights/2C9EFCB40BE052BA6D556F206C9B9F67.png)
+在验证集上效果：  
+
+![image](https://github.com/LY-Road/PyTorch-YOLOv3-Mask_Detection/tree/main/output)
 
 
 ### 下载数据集
