@@ -10,7 +10,8 @@
 
 在验证集上效果：  
 
-![image](/home/yaoyao/pycharm_code/PyTorch-YOLOv3-开课吧/output/2C9EFCB40BE052BA6D556F206C9B9F67.png)
+![image](https://github.com/LY-Road/PyTorch-YOLOv3-Mask_Detection/blob/main/output/2C9EFCB40BE052BA6D556F206C9B9F67.png)
+![image](https://github.com/LY-Road/PyTorch-YOLOv3-Mask_Detection/blob/main/output/2C9EFCB40BE052BA6D556F206C9B9F67.png)
 
 
 ### 下载数据集
