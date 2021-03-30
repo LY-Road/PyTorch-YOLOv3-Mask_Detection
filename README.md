@@ -41,7 +41,10 @@
 > $ python3 train.py --model_def config/yolov3-custom.cfg --data_config config/custom.data --pretrained_weights weights/yolov3_ckpt_99.pth
 ### 测试
 执行如下命令：
-> python3 test.py ----model_def config/yolov3-custom.cfg --data_config config/custom.data --weights_path weights/yolov3_ckpt_99.pth --class_path data/custom/classes.names
+> python3 test.py ----model_def config/yolov3-custom.cfg --data_config config/custom.data --weights_path weights/yolov3_ckpt_99.pth --class_path data/custom/classes.names  
+注意权重路径。
 ### 检测
-将需要检测的图片放在data/samples下，执行如下命令：
-> python3 detcet
+将需要检测的图片放在data/samples下，执行如下命令（输出图片存放在output文件夹下）：
+> python3 detcet.py --model_def config/yolov3-custom.cfg --weights_path weights/yolov3_ckpt_99.pth --class_path data/custom/classes.names  
+注意权重路径。
+
