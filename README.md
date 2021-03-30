@@ -13,7 +13,7 @@
 ![image](https://github.com/LY-Road/PyTorch-YOLOv3-Mask_Detection/blob/main/output/2C9EFCB40BE052BA6D556F206C9B9F67.png)
 ![image](https://github.com/LY-Road/PyTorch-YOLOv3-Mask_Detection/blob/main/output/64B20670984C4558227A18E15D333B24.png)
 ![image](https://github.com/LY-Road/PyTorch-YOLOv3-Mask_Detection/blob/main/output/6885980472858D01176A6A6C0FFB0A7D.png)
-![image](https://github.com/LY-Road/PyTorch-YOLOv3-Mask_Detection/blob/main/output/64B20670984C4558227A18E15D333B24.png)
+![image](https://github.com/LY-Road/PyTorch-YOLOv3-Mask_Detection/blob/main/output/93096EB90097F379ACF957169222CD67.png)
 
 
 ### 下载数据集
