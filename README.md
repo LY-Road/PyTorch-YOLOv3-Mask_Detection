@@ -8,7 +8,12 @@
 >Pytorch version：1.7.1  
 >Python 3.8.5  
 
-在验证集上效果：  
+训练100个epochs，在验证集上效果：  
+|classes name |AP|
+|face_not_mask|  |
+|face_mask    |  |
+
+mAP
 
 ![image](https://github.com/LY-Road/PyTorch-YOLOv3-Mask_Detection/blob/main/output/2C9EFCB40BE052BA6D556F206C9B9F67.png)
 ![image](https://github.com/LY-Road/PyTorch-YOLOv3-Mask_Detection/blob/main/output/64B20670984C4558227A18E15D333B24.png)
