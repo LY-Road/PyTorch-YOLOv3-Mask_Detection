@@ -13,8 +13,7 @@ classes name |AP
 -------------|----
 face_not_mask|89.1  
 face_mask    |98.2  
-
-mAP|0.916
+mAP：0.916
 
 ![image](https://github.com/LY-Road/PyTorch-YOLOv3-Mask_Detection/blob/main/output/2C9EFCB40BE052BA6D556F206C9B9F67.png)
 ![image](https://github.com/LY-Road/PyTorch-YOLOv3-Mask_Detection/blob/main/output/64B20670984C4558227A18E15D333B24.png)
