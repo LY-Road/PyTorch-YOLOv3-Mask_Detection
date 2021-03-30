@@ -10,6 +10,7 @@
 
 训练100个epochs，在验证集上效果：  
 classes name |AP
+-------------|----
 face_not_mask|89.1  
 face_mask    |98.2  
 
