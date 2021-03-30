@@ -1,5 +1,5 @@
 ## PyTorch-YOLOv3-Mask_Detection
-● 口罩佩戴检测
+● 使用YOLOv3实现口罩佩戴检测
 
 环境：  
 >Ubuntu 20.04  
@@ -7,6 +7,9 @@
 >CUDNN version：8.0.4  
 >Pytorch version：1.7.1  
 >Python 3.8.5  
+
+在验证集上效果：
+![image]()
 
 ### 下载数据集
 链接: https://pan.baidu.com/s/1SqjBKCO_IupeiCZYK3R73w 提取码: ftng
@@ -32,7 +35,7 @@
 > $ python3 train.py --model_def config/yolov3-custom.cfg --data_config config/custom.data
 ### 测试
 执行如下命令：
-> python3 test.py --
+> python3 test.py ----model_def config/yolov3-custom.cfg --data_config config/custom.data
 ### 检测
 将需要检测的图片放在data/samples下，执行如下命令：
 > python3
