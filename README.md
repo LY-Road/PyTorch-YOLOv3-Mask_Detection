@@ -13,6 +13,9 @@
 
 ### 下载数据集
 链接: https://pan.baidu.com/s/1SqjBKCO_IupeiCZYK3R73w 提取码: ftng
+### 下载预训练权重
+链接：https://pan.baidu.com/s/1mzt_o46gsa9_QllEAiVK4Q 提取码：7nx3  
+将预训练权重放在weights文件夹下。
 ### 创建模型配置文件
 > $ cd config/  
 > $ bash create_custom_model.sh 2  
@@ -31,11 +34,14 @@
 > $ cd custom/  
 > $ python3 make_train_valid.py   
 ### 训练  
-执行如下命令：
-> $ python3 train.py --model_def config/yolov3-custom.cfg --data_config config/custom.data
+执行如下命令（训练好的权重存放在checkpoints文件夹下）：
+> $ python3 train.py --model_def config/yolov3-custom.cfg --data_config config/custom.data  
+
+加载预训练权重，执行如下命令：    
+> $ python3 train.py --model_def config/yolov3-custom.cfg --data_config config/custom.data --pretrained_weights weights/yolov3_ckpt_99.pth
 ### 测试
 执行如下命令：
-> python3 test.py ----model_def config/yolov3-custom.cfg --data_config config/custom.data
+> python3 test.py ----model_def config/yolov3-custom.cfg --data_config config/custom.data --weights_path weights/yolov3_ckpt_99.pth --class_path data/custom/classes.names
 ### 检测
 将需要检测的图片放在data/samples下，执行如下命令：
-> python3
+> python3 detcet
