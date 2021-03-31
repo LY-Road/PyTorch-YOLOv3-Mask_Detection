@@ -25,7 +25,7 @@ mAP：0.920
 
 ### 下载数据集
 链接: https://pan.baidu.com/s/1SqjBKCO_IupeiCZYK3R73w 提取码: ftng
-### 下载预训练权重
+### 下载预训练模型
 链接：https://pan.baidu.com/s/1mzt_o46gsa9_QllEAiVK4Q 提取码：7nx3  
 将预训练权重放在weights文件夹下。
 ### 创建模型配置文件
