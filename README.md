@@ -1,13 +1,6 @@
 ## PyTorch-YOLOv3-Mask_Detection
 ● 使用YOLOv3实现口罩佩戴检测
 
-环境：  
->Ubuntu 20.04  
->CUDA version：11.1  
->CUDNN version：8.0.4  
->Pytorch version：1.7.1  
->Python 3.8.5  
-
 训练100个epochs，在验证集上效果：  
 class |AP
 -------------|----
